@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340" role="img" aria-labelledby="title description">
+  <title id="title">kwork-api/mcp</title>
+  <desc id="description">Kwork project search via MCP, CLI and a browser interface.</desc>
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#102a26"/>
+      <stop offset="1" stop-color="#1c463b"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#b8dfca" stroke-opacity=".12"/>
+      <circle cx="0" cy="0" r="1.5" fill="#b8dfca" fill-opacity=".27"/>
+    </pattern>
+    <clipPath id="canvas"><rect width="1120" height="340" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <rect width="1120" height="340" fill="url(#background)"/>
+    <rect x="690" width="430" height="340" fill="url(#grid)"/>
+    <path d="M678 26V314M715 305H1074" stroke="#aed4bf" stroke-opacity=".25"/>
+    <path d="M680 116H736M1044 231H1094" stroke="#aed4bf" stroke-opacity=".45" stroke-dasharray="5 5"/>
+    <circle cx="736" cy="116" r="4" fill="#d7f68b"/>
+    <circle cx="1044" cy="231" r="4" fill="#d7f68b"/>
+
+    <g font-family="DejaVu Sans, Verdana, sans-serif">
+      <rect x="54" y="52" width="36" height="32" rx="6" fill="#d7f68b"/>
+      <path d="m64 63 5 5-5 5m10 0h6" fill="none" stroke="#152e25" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="104" y="73" fill="#d7f68b" font-size="15" font-weight="700" letter-spacing="2.2">ПРОЕКТЫ KWORK</text>
+      <text x="50" y="169" fill="#f6fbf5" font-size="76" font-weight="700" letter-spacing="-3">kwork-api<tspan fill="#d7f68b">/mcp</tspan></text>
+      <text x="55" y="214" fill="#cae3d4" font-size="21">Поиск заказов и выгрузка в JSON</text>
+
+      <path d="M55 253H614" stroke="#adcbbb" stroke-opacity=".37"/>
+      <text x="55" y="286" fill="#e5f3e9" font-size="15" font-weight="700">MCP</text>
+      <circle cx="107" cy="281" r="2.5" fill="#a5c7b6"/>
+      <text x="122" y="286" fill="#e5f3e9" font-size="15" font-weight="700">CLI</text>
+      <circle cx="165" cy="281" r="2.5" fill="#a5c7b6"/>
+      <text x="180" y="286" fill="#e5f3e9" font-size="15" font-weight="700">Браузер</text>
+
+      <rect x="758" y="67" width="286" height="202" rx="14" fill="#0f2723" stroke="#82ad99"/>
+      <path d="M758 107H1044" stroke="#82ad99"/>
+      <circle cx="779" cy="87" r="4" fill="#d7f68b"/>
+      <circle cx="793" cy="87" r="3.5" fill="#608674"/>
+      <circle cx="807" cy="87" r="3.5" fill="#608674"/>
+      <text x="1021" y="92" fill="#c6e2d4" font-size="13" text-anchor="end" font-family="DejaVu Sans Mono, monospace">projects.json</text>
+      <g font-family="DejaVu Sans Mono, monospace" font-size="17">
+        <text x="780" y="141" fill="#c6e2d4">{</text>
+        <text x="798" y="169" fill="#d7f68b">"count"<tspan fill="#e7f3ea">: 1,</tspan></text>
+        <text x="798" y="197" fill="#d7f68b">"projects"<tspan fill="#e7f3ea">: […]</tspan></text>
+        <text x="780" y="225" fill="#c6e2d4">}</text>
+      </g>
+    </g>
+  </g>
+</svg>

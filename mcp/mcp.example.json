@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kwork-projects": {
+      "command": "/home/pozumal/Projects/kwork-mcp/mcp/.venv/bin/python",
+      "args": ["-B", "/home/pozumal/Projects/kwork-mcp/mcp/server.py"]
+    }
+  }
+}
